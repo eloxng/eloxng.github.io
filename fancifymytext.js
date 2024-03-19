@@ -32,7 +32,7 @@ function boringBetty(){
 function moo(){
     document.getElementById("text").style.textTransform = "uppercase";
     var str = document.getElementById("text").value;
-    var parts = str.split("\n");
+    var parts = str.split(".");
     for(var i = 0; i < parts.length; i++){
         parts[i] += "-Moo";
     }
